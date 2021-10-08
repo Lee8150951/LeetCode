@@ -1,4 +1,4 @@
-from utils import TreeNode
+from treeNode import TreeNode
 class Solution:
     def pathSum(self, root: TreeNode, targetSum: int) -> int:
         def rootSum(root, targetSum):
