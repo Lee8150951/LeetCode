@@ -18,6 +18,7 @@ class Solution:
                 ans += timeSeries[i] + duration - expired
             expired = timeSeries[i] + duration
         return ans
+    
         
 
 if __name__=="__main__":

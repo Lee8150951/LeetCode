@@ -11,6 +11,7 @@ class Solution:
             else:
                 answer.append(i)
         return answer
+    
 
 if __name__=="__main__":
   intervals = [[1,4],[2,3]]
